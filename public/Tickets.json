@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not working",
+    "description": "Users are unable to log in due to an unresponsive login button.",
+    "customer": "Rafiul Islam",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-10-15"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway error",
+    "description": "Transactions are failing for multiple users using bKash.",
+    "customer": "Sadia Noor",
+    "priority": "Critical",
+    "status": "Resolved",
+    "createdAt": "2025-10-12"
+  },
+  {
+    "id": 3,
+    "title": "Image not loading on dashboard",
+    "description": "Dashboard banner image fails to load on Chrome browsers.",
+    "customer": "Mahin Rahman",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-10-13"
+  },
+  {
+    "id": 4,
+    "title": "Email notification delayed",
+    "description": "New ticket notifications are taking over 5 minutes to send.",
+    "customer": "Nusrat Jahan",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-10-14"
+  },
+  {
+    "id": 5,
+    "title": "UI alignment issue in footer",
+    "description": "Footer content overlaps on small screen devices.",
+    "customer": "Abir Hasan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-10-10"
+  },
+  {
+    "id": 6,
+    "title": "Server timeout on ticket creation",
+    "description": "Ticket submission takes too long and fails after 30s.",
+    "customer": "Sanjida Akter",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-10-15"
+  },
+  {
+    "id": 7,
+    "title": "Dark mode toggle not saving preference",
+    "description": "User dark mode setting resets after reload.",
+    "customer": "Mehedi Hasan",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-10-11"
+  },
+  {
+    "id": 8,
+    "title": "Ticket list not updating in real-time",
+    "description": "Newly created tickets don’t appear without refreshing.",
+    "customer": "Farzana Akter",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-10-14"
+  },
+  {
+    "id": 9,
+    "title": "Download report button not working",
+    "description": "Report PDF download fails for most users.",
+    "customer": "Rakibul Hasan",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-10-09"
+  },
+  {
+    "id": 10,
+    "title": "Search feature returning wrong results",
+    "description": "Search queries are not filtering tickets correctly.",
+    "customer": "Tahmid Hossain",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-10-16"
+  },
+  {
+    "id": 11,
+    "title": "Customer name not displaying properly",
+    "description": "Special characters in customer names show as ‘???’.",
+    "customer": "Ayesha Sultana",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-10-08"
+  },
+  {
+    "id": 12,
+    "title": "Analytics chart not loading",
+    "description": "Admin analytics section shows empty charts.",
+    "customer": "Zahid Hasan",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-10-17"
+  }
+]
