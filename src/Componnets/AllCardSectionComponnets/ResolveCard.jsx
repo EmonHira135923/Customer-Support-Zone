@@ -6,7 +6,7 @@ const ResolveCard = ({ ticdata, handleticketsolve }) => {
       <h3 className="text-gray-700 font-medium">{ticdata.title}</h3>
       <button
         onClick={() => handleticketsolve(ticdata)}
-        className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition"
+        className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition hover:cursor-pointer"
       >
         Complete
       </button>

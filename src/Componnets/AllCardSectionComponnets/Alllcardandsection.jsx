@@ -23,7 +23,7 @@ const Alllcardandsection = ({
             Customer Tickets
           </h2>
 
-          <div className="md:p-8 grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-2 gap-6">
+          <div className="hover:cursor-pointer md:p-8 grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-2 gap-6">
             {alldata.map((ticdata) => (
               <AllCardHere
                 handleticket={handleticket}
