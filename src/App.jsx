@@ -32,7 +32,15 @@ function App() {
     const Ticketsvalue = [...Ticets, ticdata];
     setTicets(Ticketsvalue);
 
-    toast("Ticket Added Succesfully");
+    toast(
+      <div className="flex items-center gap-2">
+        <img
+          className="w-10 h-10"
+          src="https://i.ibb.co/r2NrZcGY/check-img.png"
+        />
+        <span>In Progress!!!</span>
+      </div>
+    );
   };
 
   const handleticketsolve = (ticdata) => {
@@ -42,7 +50,15 @@ function App() {
     setTicets(remaining);
     const updatedAll = alldata.filter((item) => item.id !== ticdata.id);
     setalldata(updatedAll);
-    toast("Ticket Resolved Succesfully");
+    toast(
+      <div className="flex items-center gap-2">
+        <img
+          className="w-10 h-10"
+          src="https://i.ibb.co/r2NrZcGY/check-img.png"
+        />
+        <span>Completed!!!</span>
+      </div>
+    );
   };
 
   return (
