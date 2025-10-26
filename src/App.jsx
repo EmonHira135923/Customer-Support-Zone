@@ -26,21 +26,13 @@ function App() {
   const handleticket = (ticdata) => {
     const duplicate = Ticets.find((found) => found.id === ticdata.id);
     if (duplicate) {
-      toast("This Ticket Already Added");
+      toast.error("This Ticket Already Added");
       return;
     }
     const Ticketsvalue = [...Ticets, ticdata];
     setTicets(Ticketsvalue);
 
-    toast(
-      <div className="flex items-center gap-2">
-        <img
-          className="w-10 h-10"
-          src="https://i.ibb.co/r2NrZcGY/check-img.png"
-        />
-        <span>In Progress!!!</span>
-      </div>
-    );
+    toast.info("In Proggress!!!");
   };
 
   const handleticketsolve = (ticdata) => {
@@ -50,15 +42,7 @@ function App() {
     setTicets(remaining);
     const updatedAll = alldata.filter((item) => item.id !== ticdata.id);
     setalldata(updatedAll);
-    toast(
-      <div className="flex items-center gap-2">
-        <img
-          className="w-10 h-10"
-          src="https://i.ibb.co/r2NrZcGY/check-img.png"
-        />
-        <span>Completed!!!</span>
-      </div>
-    );
+    toast.success("Complete");
   };
 
   return (
