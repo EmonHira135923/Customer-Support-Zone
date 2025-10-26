@@ -32,18 +32,18 @@
 
 ## Technologies Used
 
-- React.js  
-- React-Toastify  
-- Tailwind CSS / DaisyUI  
-- JavaScript (ES6+)  
-- HTML5 & CSS3  
+- React.js
+- React-Toastify
+- Tailwind CSS / DaisyUI
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
 ---
 
 ## Hosting & Repository
 
-- **GitHub Repository:** [https://github.com/EmonHira135923](https://github.com/EmonHira135923/Customer-Support-Zone)  
-- **Live Demo:** [https://yourusername.github.io/customer-support-zone](https://yourusername.github.io/customer-support-zone)  
+- **GitHub Repository:** [https://github.com/EmonHira135923](https://github.com/EmonHira135923/Customer-Support-Zone)
+- **Live Demo:** [https://github.com/EmonHira135923/Customer-Support-Zone](https://customer-supports-zone-project.netlify.app/)
 
 ---
 
